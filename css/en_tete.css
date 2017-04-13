@@ -1,0 +1,23 @@
+
+ent ul {
+  overflow: hidden;
+}
+
+ent ul li {
+  float: left;
+  display: block;
+  color: orange;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 125px;
+  font-family: "Stencil", Times, serif;
+}
+
+  
+ent ul li img {
+    height:125px;
+    width: auto;
+    }
+
+
