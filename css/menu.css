@@ -24,6 +24,7 @@ nav ul li a {
   float: left;
   display: block;
   color: #636363;
+  
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -31,11 +32,17 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #ddd;
-  color: white;
+  background-image:linear-gradient(white,#ddd);;
+  color: orange;
 }
 
 nav ul li a.active {
-    background-color: orange;
+    background-image:linear-gradient(white, orange);;
+    color: white;
+}
+
+
+nav ul li a.red {
+    background-color: red;
     color: white;
 }
