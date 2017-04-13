@@ -1,0 +1,8 @@
+footer
+{
+width:100%;
+background-color: orange;
+color: white;
+padding: 150px 0;
+bottom:0px;
+}

@@ -1,8 +1,10 @@
 <?php include("en_tete.php"); 
  include("menus.php"); ?>
+
 <html lang="fr">
-
-
+<head>
+<meta charset="utf-8" />
+</head>
 <body>
 <header>
 	<h1>Titre</h1>
@@ -10,8 +12,13 @@
 </header>
 
 	<section>
-	<article>C'est toujours la page de test, ici on note que la page active est acceuil, la barre de nav a une option permettant de différencier la page étant active </article>
+	<article>C'est toujours la page de test, ici on note que la page active est acceuil, la barre de nav a une option permettant de différencier la page étant active
+	Je mets de l'image pour tester le pied de page et le coté fixe de la barre de nav:
+	<img src="../images/logo.png" alt="" >
+	  </article>
 	</section>
 
 </body>
+
+<?php include("pied_page.php");?> 
 </html>

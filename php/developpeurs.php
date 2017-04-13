@@ -12,8 +12,12 @@
 </header>
 
 	<section>
-	<article>C'est toujours la page de test, ici on note que la page active est acceuil, la barre de nav a une option permettant de différencier la page étant active </article>
+	<article>C'est toujours la page de test, ici on note que la page active est acceuil, la barre de nav a une option permettant de différencier la page étant active
+
+	  </article>
 	</section>
 
 </body>
+
+<?php include("pied_page.php");?> 
 </html>
