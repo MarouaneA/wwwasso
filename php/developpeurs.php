@@ -3,6 +3,7 @@
 
 <html lang="fr">
 <head>
+<title> Page developpeurs</title>
 <meta charset="utf-8" />
 </head>
 <body>

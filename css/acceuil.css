@@ -1,0 +1,12 @@
+.carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      max-height: 640px;
+      }
+
+  @media (max-width: 600px) {
+.carousel-caption {
+      display: none; 
+    }
+  }
+  
