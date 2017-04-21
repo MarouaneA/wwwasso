@@ -1,38 +1,44 @@
-<?php include("en_tete.php"); 
- include("menus.php"); ?>
-
 <html lang="fr">
 <head>
 <title> Guantan'asso </title>
 <meta charset="utf-8" />
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="/../css/acceuil.css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 
 </head>
+<div class="nav">
+<?php include("en_tete.php"); 
+ include("menus.php"); ?>
+</div>
+
+
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="../images/profil.jpg" alt="Image">
-        <div class="carousel-caption">
-          <h3>GUANTAN'ASSO</h3>
-          <p> DÉCHAINEZ-VOUS !</p>
-        </div>      
+        <img src="img_chania.jpg" alt="Chania" width="460" height="345">
       </div>
 
       <div class="item">
-        <iframe width="100%" height="640" src="../images/intro.mp4"></iframe>
-        <div class="carousel-caption">
-          <h3>TEASER</h3>
-          <p>La vidéo de campagne</p>
-        </div>      
+        <img src="img_chania2.jpg" alt="Chania" width="460" height="345">
+      </div>
+    
+      <div class="item">
+        <img src="img_flower.jpg" alt="Flower" width="460" height="345">
+      </div>
+
+      <div class="item">
+        <img src="img_flower2.jpg" alt="Flower" width="460" height="345">
       </div>
     </div>
 
@@ -45,7 +51,7 @@
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
-</div>
+  </div>
   
 <div class="container text-center">    
   <h3>Prenez part à l'aventure !</h3><br>

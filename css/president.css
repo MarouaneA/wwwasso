@@ -1,0 +1,23 @@
+img {
+      width: 100%; 
+      margin: auto;
+      max-height: 600px;
+      }
+      
+h1 {
+	font-family: "Stencil", Times, serif;
+	}
+	
+h2 {
+	font-family: "Calisto MT";
+	}
+
+h2 a {float: left;
+  display: block;
+  color: #636363;
+  
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}

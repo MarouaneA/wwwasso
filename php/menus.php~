@@ -6,25 +6,17 @@
 	<nav>
 		<ul>
 			
-			<li> <a href="acceuil.php" class="active"> Accueil</a> </li>
-			<li> <div class="dropdown">
-  <span><a href="developpeurs.php">Campagne</span>
-  <div class="dropdown-content">
-    <p>Le président</p>
-    <p>Le président</p>
-    <p>Le président</p>
-    <p>Le président</p>
-    
-  </div>
-			<li><a href="developpeurs.php">Notre Président</li>
-			<li><a href="developpeurs.php">Events</li>
-			<li><a href="developpeurs.php">Soirée</li>
-			<li><a href="developpeurs.php">Services</li>
-	
-			</li>
-	
-			<li> <a href="developpeurs.php"> Page 2 </a></li>
-			<li> <a href="developpeurs.php">Page 3 </a> </li>
+			<li> <a href="acceuil.php" > Accueil</a> </li>
+			<li class="dropdown"> <a href="accueil.php"> La campagne </a>
+			<div class="dropdown-content">
+			<a href="president.php">Notre Président</a>
+			<a href="developpeurs.php">Events</a>
+			<a href="developpeurs.php">Soirée</a>
+			<a href="developpeurs.php">Services</a>
+			</div></li>
+			<li> <a href="developpeurs.php"> l'Asso </a></li>
+			<li> <a href="developpeurs.php"> Galerie </a> </li>
+			<li> <a href="developpeurs.php"> Staff </a> </li>
 			<li style="float:right"><a class="red" href="#about"><b>HOTLINE</b></a></li>
 			
 		</ul>

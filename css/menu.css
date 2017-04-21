@@ -2,6 +2,7 @@ nav
 {
     left: 0;
     width: 100%;
+
    
 }
 
@@ -46,28 +47,38 @@ nav ul li a.red {
     background-color: red;
     color: white;
 }
-
-nav  ul li:hover >ul
-{
-    display:block;
-}
-
-
-.dropdown {
-    position: relative;
+nav li a, .dropbtn {
     display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-.dropdown-content {
+nav li.dropdown {
+    display: inline-block;
+    z-index: 999
+}
+
+nav .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
+    z-index: 999;
 }
 
-.dropdown:hover .dropdown-content {
+nav .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+nav .dropdown-content a:hover {background-color: #f1f1f1}
+
+nav .dropdown:hover .dropdown-content {
     display: block;
 }
